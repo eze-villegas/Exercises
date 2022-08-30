@@ -4,9 +4,9 @@ public class funciones {
         int resulFinal = suma(1, 4, 3);
         System.out.println(resulFinal);
 
-        Coche unCoche = new Coche();
-        unCoche.masPuertas();
-        System.out.println(unCoche.puertas);
+        Coche miCoche = new Coche();
+        miCoche.masPuertas();
+        System.out.println(miCoche.puertas);
         
     }
     public static int suma(int a, int b, int c){
@@ -14,7 +14,7 @@ public class funciones {
         return resultado;
     }
 
-    static class Coche{
+    public static class Coche{
         int puertas = 4;
         void masPuertas(){
             this.puertas++;
